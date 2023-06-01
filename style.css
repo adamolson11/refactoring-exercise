@@ -1,0 +1,169 @@
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styles for the body */
+  body {
+    background-color: #d9dcd6; /* Main background color of the body */
+  }
+  
+  /* Styles for the header component */
+  .header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Styles for the main heading within the header */
+  .header h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  
+  /* Styles for the "seo" span within the main heading */
+  .header h1 .seo {
+    color: #d9dcd6;
+  }
+  
+  /* Styles for the div within the header */
+  .header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  
+  /* Styles for the unordered list within the div */
+  .header div ul {
+    display:block;
+    list-style-type: none;
+  }
+  
+  /* Styles for the list items within the unordered list */
+  .header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  /* Styles for anchor tags */
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Styles for paragraphs */
+  p {
+    font-size: 16px;
+  }
+  
+  /* Styles for the hero image */
+  .hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Styles for elements with the "float-left" class */
+  .float-left {
+    float: left;
+    margin-right: 25px;
+  }
+  
+  /* Styles for elements with the "float-right" class */
+  .float-right {
+    float: right;
+    margin-left: 25px;
+  }
+  
+  /* Styles for the content section */
+  .content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  /* Styles for the benefits section */
+  .benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+  }
+  
+  /* Styles for the individual benefit sections */
+  .benefit-lead,
+  .benefit-cost,
+  .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+  }
+  
+  /* Styles for the heading within each benefit section */
+  .benefit-lead h3,
+  .benefit-cost h3,
+  .benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Styles for the images within each benefit section */
+  .benefit-lead img,
+  .benefit-brand img,
+  .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+  }
+  
+  /* Styles for the different sections (search-engine-optimization, online-reputation-management, social-media-marketing) */
+  .search-engine-optimization,
+  .online-reputation-management,
+  .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+  }
+  
+  /* Styles for the images within each section */
+  .social-media-marketing img,
+  .online-reputation-management img,
+  .search-engine-optimization img {
+    max-height: 200px;
+  }
+  
+  /* Styles for the heading within each section */
+  .online-reputation-management h2,
+  .social-media-marketing h2,
+  .search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  /* Styles for the footer section */
+  .footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Styles for the heading within the footer */
+  .footer h2 {
+    font-size: 20px;
+  }
+  
