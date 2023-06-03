@@ -30,7 +30,7 @@
   }
   
   /* Styles for the div within the header */
-  .header div {
+  .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,13 +39,13 @@
   }
   
   /* Styles for the unordered list within the div */
-  .header div ul {
+  .header nav a {
     display:block;
     list-style-type: none;
   }
   
   /* Styles for the list items within the unordered list */
-  .header div ul li {
+  .header nav a {
     display: inline-block;
     margin-left: 25px;
   }
